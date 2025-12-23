@@ -7,11 +7,12 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    const amount = parseInt(count);
-    if (amount < 1) {
-      setText([]);
-      setLoading(false);
-      return;
+    let amount = parseInt(count);
+    if (amount <= 0) {
+      amount = 1;
+    }
+    if (amount > 8) {
+      amount = 8;
     }
     setText(data.slice(0, amount));
     setLoading(false);
@@ -20,7 +21,7 @@ function App() {
     <>
       <section className="section-center">
         <h2>tired of boring lorem ipsum?</h2>
-        <form onSubmit={handleSubmit}>
+        <form className="lorem-form" onSubmit={handleSubmit}>
           <label htmlFor="count">count: </label>
           <input
             type="number"
@@ -33,10 +34,12 @@ function App() {
           </button>
         </form>
       </section>
-      <section className="section-center">
+      <article className="section-center lorem-text">
         <h2>result</h2>
-        <p className="lorem">{loading ? "loading..." : text}</p>
-      </section>
+        {text.map((item, index) => {
+          return <p key={index}>{item}</p>;
+        })}
+      </article>
     </>
   );
 }
