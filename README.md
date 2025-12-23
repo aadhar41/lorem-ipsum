@@ -2,6 +2,8 @@
 
 A React application that generates various types of "Lorem Ipsum" text to spice up your placeholders. Instead of the standard boring Latin, choose from a variety of fun and unique text styles including Hipster, Zombie, Cat, and more!
 
+![Lorem Ipsum Generator Screenshot](public/lorem-ipsum-screen.png)
+
 ## Features
 
 - **Customizable Paragraph Count**: Choose exactly how many paragraphs you need.
