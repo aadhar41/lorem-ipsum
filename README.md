@@ -2,75 +2,25 @@
 
 A React application that generates various types of "Lorem Ipsum" text to spice up your placeholders. Instead of the standard boring Latin, choose from a variety of fun and unique text styles including Hipster, Zombie, Cat, and more!
 
-![Lorem Ipsum Generator Screenshot](public/lorem-ipsum-screen.png)
+## 📸 Screen
 
-## Features
+| Feature | Preview |
+| :--- | :--- |
+| **Lorem Ipsum Generator** | <img src="public/lorem-ipsum-screen.png" alt="Lorem Ipsum Generator Screenshot" width="600"/> |
 
-- **Customizable Paragraph Count**: Choose exactly how many paragraphs you need.
-- **Multiple Text Types**: Generates text from a curated list of creative "ipsum" styles.
-- **Copy to Clipboard**: Easily copy the generated text for use in your projects.
-- **Responsive Design**: Looks great on desktop and mobile.
+---
 
-## Prerequisites
+## 🤝 Community & Contributions
 
-Before you begin, ensure you have met the following requirements:
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-- **Node.js**: v14.0.0 or higher
-- **npm**: v6.0.0 or higher
+- **Code of Conduct**: Please read our [Code of Conduct](CODE_OF_CONDUCT.md) to understand the standards of behavior we expect in our community.
+- **Contributing**: Check out the [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+- **Security**: Please refer to our [Security Policy](SECURITY.md).
+- **Issue Templates**: When opening an issue, please use the provided [Bug Report](.github/ISSUE_TEMPLATE/bug_report.md) or [Feature Request](.github/ISSUE_TEMPLATE/feature_request.md) templates.
 
-## Installation
+---
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
+## 📜 License
 
-2. Navigate to the project directory:
-   ```bash
-   cd lorem-Ipsum
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-## Usage
-
-
-### Development Server
-
-To start the app in development mode:
-
-```bash
-npm start
-```
-
-
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes.
-
-### Testing
-
-To launch the test runner in interactive watch mode:
-
-```bash
-npm test
-```
-
-### Build
-
-To build the app for production to the `build` folder:
-
-```bash
-npm run build
-```
-
-
-## Code Quality
-
-This project uses **Husky** and **lint-staged** to ensure code quality. 
-- Pre-commit hooks are configured to run tests/linting automatically before you commit changes.
-
-## License
-
-This project is licensed under the MIT License.
+Distributed under the MIT License. See `LICENSE` for more information.
